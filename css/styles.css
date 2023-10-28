@@ -315,6 +315,25 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
     fill: #f4f4fd;
 }
 /*======================================/SECTION3===================================*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 40px;
+    padding-bottom: 164px;
+}
+.ovarlay-text {
+        font-family: 'Roboto' sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 
 .portfolio-section-title {
     color: #2E2F42;
@@ -338,7 +357,8 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 .portfolio-item {
     border: 1px solid;
     border-color: #E7E9FC;
-    width: calc((100% - 48px) / 3); ;
+    width: calc((100% - 48px) / 3);
+    position: relative;
 }
 
 .portfolio-item-img {
@@ -433,10 +453,10 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 100%;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer-item :hover,
-.social-footer-item :active {
+.social-footer-item :focus {
     background-color: #31D0AA;
 }
 
