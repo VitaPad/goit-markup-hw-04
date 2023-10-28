@@ -107,6 +107,7 @@ body {
     margin-right: auto;
     position: absolute;
     transform: translateY(500%);
+    bottom: -1px;
 }
 
 .menu-link {
