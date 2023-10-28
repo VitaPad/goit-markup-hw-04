@@ -485,7 +485,7 @@ transform: translateY(0%);
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 100%;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer-item :hover,
 .social-footer-item :focus {
