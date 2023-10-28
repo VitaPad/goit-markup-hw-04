@@ -95,17 +95,17 @@ body {
     transform: translateY(0%);
 }
 
-.menu-item-first::after {
+.menu-link-first::after {
     display: block;
- content:'';
- width: 48px;
- height: 4px;
- border-radius: 2px;
- background-color: #404BBF;
- margin-left: auto;
- margin-right: auto;
- position: absolute;
- transform: translateY(500%);
+    content:'';
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    transform: translateY(500%);
 }
 
 .menu-link {
