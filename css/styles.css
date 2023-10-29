@@ -386,6 +386,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     color: #F4F4FD;
     background-color: #4D5AE5;
     transform: translateY(100%);
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
 }
 .portfolio-item-img {
     width: 360px;
